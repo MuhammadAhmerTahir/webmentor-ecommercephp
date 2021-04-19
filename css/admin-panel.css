@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* .success {
+  background-color: #17ab07;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+* .success p {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+
+* .errors {
+  background-color: #cc0e17;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+* .errors ul {
+  list-style: none;
+}
+
+* .errors ul li {
+  color: white;
+  font-weight: 100;
+  margin: 10px 0px;
+}
+
+* ul {
+  list-style: none;
+}
+
+* a {
+  text-decoration: none;
+}
+
+* .msg {
+  margin-left: 10px;
+}
+
+* .status {
+  padding: 2px;
+  color: #f51e1e;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+}
+
+.table .table-con {
+  max-width: 1500px;
+  height: 100%;
+  padding: 50px 1em;
+  margin: auto;
+}
+
+.table .table-con h1 {
+  font-size: 55px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.table .table-con table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.table .table-con table tr th {
+  padding: 20px 10px;
+  color: white;
+  background-color: #333;
+}
+
+.table .table-con table tr td {
+  padding: 20px 0px;
+}
+
+.table .table-con table tr td img {
+  width: 50px;
+  border-radius: 50px;
+  height: 50px;
+}
+
+.table .table-con table tr td button {
+  border: none;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px 12px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.table .table-con table tr td .update {
+  border: none;
+  color: white;
+  background-color: #0ea365;
+  border-radius: 5px;
+  padding: 8px 12px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.table .table-con table tr td button:hover {
+  background-color: #fd6060;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.table .table-con table tr:nth-child(odd) {
+  background-color: #f3f5ff;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container .container-con {
+  max-width: 600px;
+  height: 100%;
+  padding: 50px 1em;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.container .container-con h1 {
+  font-size: 55px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.container .container-con form label {
+  font-weight: 900;
+  color: #333;
+}
+
+.container .container-con form input {
+  border: 1px #cccccc solid;
+  padding: 15px 12px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container .container-con form .hidden {
+  visibility: hidden;
+}
+
+.container .container-con form button {
+  border: none;
+  padding: 20px 60px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #3d59f5;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  width: 100%;
+}
+
+.footer {
+  padding: 30px 1em;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+
+.footer p {
+  color: white;
+}
+/*# sourceMappingURL=admin-panel.css.map */
